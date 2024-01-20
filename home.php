@@ -1,12 +1,13 @@
-<?php session_start();
-$userEmail = $_POST['email'];
-$_SESSION['userEmail'] = $userEmail;
+<?php require_once("access_protection.php") ?>
 
-echo "Até que deu certo <br>";
-echo "O email passado foi o " . $_POST['email'] . "<br><br>";
-
-echo '<pre>';
-print_r($_SESSION);
-echo '</pre>';
-
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Bem vindooooooooooooooooooooooooooo
+</body>
+</html>

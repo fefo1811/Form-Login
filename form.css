@@ -1,0 +1,32 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: royalblue;
+    width: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-container label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container input:nth-child(2) {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-container input:nth-child(4) {
+    display: block;
+    margin-bottom: 5px;
+}

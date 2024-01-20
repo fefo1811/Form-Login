@@ -1,8 +1,4 @@
-<?php session_start();
-if(isset($_GET['error'])){
-    echo $_GET['error'];
-}
-?>
+<?php session_start() ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -15,10 +11,12 @@ if(isset($_GET['error'])){
 <body>
     <div class="container">
         <div class="header">
-            <h1>Faça o seu login</h1>
+            <h1>Faça o seu cadastro</h1>
         </div>
         
-        <form action="validate.php" method="post" class="form-container">
+        <p>Ja possui cadastro? <a href="./index.php">Faça o login.</a></p>
+            
+        <form action="home.php" method="post" class="form-container">
             <label>E-mail: </label>
             <input type="text" name="email"> <br>
 
@@ -27,8 +25,6 @@ if(isset($_GET['error'])){
 
             <button type="submit">Entrar</button>
         </form>
-        
-        <p>Não tem cadastro? <a href="./signup.php">Cadastre-se já!</a></p>
     </div>
 </body>
 </html>
