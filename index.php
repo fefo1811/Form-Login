@@ -9,7 +9,7 @@ if(isset($_GET['error'])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="Style/form.css">
     <title>Tela Login</title>
 </head>
 <body>
@@ -28,7 +28,7 @@ if(isset($_GET['error'])){
             <button type="submit">Entrar</button>
         </form>
         
-        <p>Não tem cadastro? <a href="./signup.php">Cadastre-se já!</a></p>
+        <p>Não tem cadastro? <a href="Pages/signup.php">Cadastre-se já!</a></p>
     </div>
 </body>
 </html>

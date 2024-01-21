@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="../Style/form.css">
     <title>Tela Login</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
             <h1>Faça o seu cadastro</h1>
         </div>
         
-        <p>Ja possui cadastro? <a href="./index.php">Faça o login.</a></p>
+        <p>Ja possui cadastro? <a href="../index.php">Faça o login.</a></p>
             
         <form action="home.php" method="post" class="form-container">
             <label>E-mail: </label>

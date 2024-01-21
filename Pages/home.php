@@ -1,4 +1,4 @@
-<?php require_once("access_protection.php") ?>
+<?php require_once("../access_protection.php") ?>
 
 <!DOCTYPE html>
 <html lang="en">
