@@ -16,7 +16,10 @@
         
         <p>Ja possui cadastro? <a href="../index.php">Faça o login.</a></p>
             
-        <form action="home.php" method="post" class="form-container">
+        <form action="../MVC/Controllers/User_controller.php" method="post" class="form-container">
+            <label>Nome: </label>
+            <input type="text" name="name"> <br>
+        
             <label>E-mail: </label>
             <input type="text" name="email"> <br>
 
